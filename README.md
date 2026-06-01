@@ -17,7 +17,7 @@ O sistema foi concebido com base em **3 níveis de acesso** distintos:
 * 📝 **Registo de Conta:** Criação autónoma de um perfil de utilizador.
 
 ### 2. Utilizador (Leitor Registado)
-* 📚 **Empréstimos:** Aluguer de livros disponíveis (com cálculo automático de prazo de 7 dias).
+* 📚 **Empréstimos:** Aluguel de livros disponíveis (com cálculo automático de prazo de 7 dias).
 * ⏳ **Reservas:** Inserção em fila de espera para livros atualmente alugados.
 * ⭐ **Avaliações:** Possibilidade de classificar e comentar livros já lidos.
 * 💡 **Sugestões:** Submissão de requisições para a compra de novos títulos.
@@ -37,7 +37,7 @@ O sistema foi concebido com base em **3 níveis de acesso** distintos:
 ## 🗄️ Estrutura da Base de Dados
 
 O modelo relacional (MER) é composto por 6 entidades:
-1. `usuarios`: Controlo de acessos, passwords e status de bloqueio.
+1. `usuarios`: Controle de acessos, passwords e status de bloqueio.
 2. `livros`: Catálogo principal do acervo.
 3. `emprestimos`: Registo de saídas, devoluções previstas e atrasos.
 4. `avaliacoes`: Notas e comentários associados a livros específicos.
@@ -93,4 +93,4 @@ Acesso Utilizador Padrão (Nível 2):
 
 ### 📝 Licença
 
-Projeto desenvolvido para fins académicos. Uso livre para estudos e implementações educativas.
+Projeto desenvolvido para fins acadêmicos. Uso livre para estudos e implementações educativas.
